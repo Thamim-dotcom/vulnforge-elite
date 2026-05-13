@@ -1,73 +1,27 @@
-# React + TypeScript + Vite
+# 🖥️ VulnForge Elite — Premium Cyberpunk Desktop Client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This client interface implements state-of-the-art GUI parameters built using **React 19**, **TypeScript**, and **Vite** bundled via secure Electron container runtimes.
 
-Currently, two official plugins are available:
+## ✨ Interface Modules
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Dashboard**: Features live threat monitoring telemetry feeds alongside custom glassmorphism stat containers.
+- **Scans & Hunts**: Manages asynchronous module configurations, scope profiles, and progress tracking bars.
+- **Execution Terminal**: Houses raw process streams mapping backend scanning scripts natively.
+- **Target Vault**: Encapsulates authorized domain endpoints and asset parameter tracking fields.
+- **Operator Settings**: Integrates full local configuration options along with local-only cryptographic profile authentication switches.
 
-## React Compiler
+## 🛠️ Local Compilation Commands
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+# Navigate to GUI directory
+cd gui
 
-## Expanding the ESLint configuration
+# Install production client dependencies
+npm install
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+# Run hot-reloading dev environment locally
+npm run dev
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# Bundle distribution builds
+npm run build
 ```
