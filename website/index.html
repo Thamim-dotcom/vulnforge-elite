@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VulnForge Elite — The Apex VAPT &amp; Bug Bounty Automation Platform</title>
+    <meta name="description" content="VulnForge Elite fuses AI orchestration, automated multi-vector campaign execution, and premium cross-platform GUI environments to revolutionize vulnerability assessment and bug bounty hunting.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Glow Nodes -->
+    <div class="bg-glow node-1"></div>
+    <div class="bg-glow node-2"></div>
+    
+    <!-- Top Navigation -->
+    <header class="navbar glass">
+        <div class="nav-brand">
+            <div class="brand-shield">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <span class="brand-title">VulnForge <span class="accent-elite">Elite</span></span>
+        </div>
+        <nav class="nav-links">
+            <a href="#features" class="nav-link">Capabilities</a>
+            <a href="#architecture" class="nav-link">Architecture</a>
+            <a href="#gui" class="nav-link">Desktop Interface</a>
+            <a href="#modules" class="nav-link">Hunt Nexus</a>
+        </nav>
+        <div class="nav-actions">
+            <a href="https://github.com/vulnforge/vulnforge-elite" target="_blank" class="btn btn-ghost" id="nav-github-btn">GitHub</a>
+            <a href="#download" class="btn btn-primary" id="nav-download-btn">Acquire System</a>
+        </div>
+    </header>
+
+    <!-- Main Content Shell -->
+    <main class="main-shell">
+        
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-pill glass">
+                <span class="pulse-dot"></span> NEXT-GEN SENTIENT BUG BOUNTY AUTOPILOT
+            </div>
+            <h1 class="hero-title">
+                Dominate Threat Horizons with <br>
+                <span class="text-gradient">Apex Automated Precision</span>
+            </h1>
+            <p class="hero-subtitle">
+                VulnForge Elite combines robust Python automation engines, local/cloud AI cognitive frameworks, and a visually stunning cross-platform Desktop GUI. Fully tailored for ethical hackers, enterprise penetration testers, and bug bounty operatives.
+            </p>
+            <div class="hero-cta-group">
+                <a href="#download" class="btn btn-primary btn-lg" id="hero-acquire-btn">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    Download Executables
+                </a>
+                <a href="#gui" class="btn btn-glass btn-lg" id="hero-explore-btn">
+                    Explore GUI Interface
+                </a>
+            </div>
+
+            <!-- Visual Command Center Interactive Preview -->
+            <div class="hero-preview-wrapper">
+                <div class="terminal-container glass" id="live-hero-terminal">
+                    <div class="terminal-header">
+                        <div class="window-dots"><span></span><span></span><span></span></div>
+                        <div class="window-title">operator@vulnforge-elite:~ (Sentient Hunt active)</div>
+                        <div class="window-status">● Live Stream</div>
+                    </div>
+                    <div class="terminal-body" id="terminal-feed">
+                        <div class="log-line info">[14:02:01] Initialization protocol complete. Spawning sub-engines...</div>
+                        <div class="log-line info">[14:02:05] Quantum Engine cross-referencing asset matrices...</div>
+                        <div class="log-line alert">[14:02:12] [CRITICAL] Blind SQLi confirmed on route /api/v2/checkout (payload: TIME_WAIT)</div>
+                        <div class="log-line success">[14:02:18] Automated report compiled. Handshake completed securely.</div>
+                    </div>
+                    <div class="terminal-footer">
+                        <span class="prompt-sign">$</span>
+                        <input type="text" readonly value="vulnforge autopilot --program hackerone/target --max-time 4h" class="prompt-input">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Features Grid -->
+        <section class="features-section" id="features">
+            <div class="section-header">
+                <h2 class="section-title">Engineered for Absolute Supremacy</h2>
+                <p class="section-description">Unparalleled functional synergy powered by highly optimized modules.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card glass" id="feat-ai">
+                    <div class="feature-icon glow-accent">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10H12V2z"/><path d="M12 12 2.1 7.1"/><path d="M12 12l9.9 4.9"/></svg>
+                    </div>
+                    <h3 class="feature-title">AI Brain Orchestration</h3>
+                    <p class="feature-desc">Deep LLM orchestration utilizing local (Ollama) pipelines to analyze logical vectors, construct bespoke payloads, and filter false positives seamlessly.</p>
+                </div>
+                <div class="feature-card glass" id="feat-autopilot">
+                    <div class="feature-icon glow-success">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                    </div>
+                    <h3 class="feature-title">Bounty Autopilot Mode</h3>
+                    <p class="feature-desc">Autonomous recon to report pipeline. Maps attack surfaces, discovers endpoints, triggers high-precision active fuzzing, and auto-calculates CVSS frameworks.</p>
+                </div>
+                <div class="feature-card glass" id="feat-gui">
+                    <div class="feature-icon glow-purple">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    </div>
+                    <h3 class="feature-title">Cyberpunk GUI System</h3>
+                    <p class="feature-desc">React 19, TypeScript, and Electron interface featuring real-time data flow views, XP operator leveling tracks, achievements, and persistent storage layers.</p>
+                </div>
+                <div class="feature-card glass" id="feat-modules">
+                    <div class="feature-icon glow-danger">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 exp3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+                    </div>
+                    <h3 class="feature-title">30+ Modular Scopes</h3>
+                    <p class="feature-desc">Extensive testing nodes supporting XSS hunting, complex SQL injection routing, SSRF, BOLA bypass checks, and WebSocket API fuzzing methodologies.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Desktop GUI Deep Dive Showcase -->
+        <section class="gui-section" id="gui">
+            <div class="gui-showcase-container glass">
+                <div class="gui-showcase-content">
+                    <span class="badge-elite">Premium Desktop Application</span>
+                    <h2 class="showcase-title">A Command Interface Beyond Standard Terminal Consoles</h2>
+                    <p class="showcase-desc">
+                        Experience native application speed paired with mesmerizing glassmorphism UI elements. Monitor real-time progress metrics, stream sub-worker live logs, track targets seamlessly, and configure dynamic local scanning profiles.
+                    </p>
+                    <ul class="gui-highlights">
+                        <li><strong>Cryptographic Safety:</strong> Local-only profile authorization supporting PBKDF2/SHA-256 session layers.</li>
+                        <li><strong>Operator Leveling:</strong> Gain dynamic Mission XP as you successfully map topologies and discover flaws.</li>
+                        <li><strong>Safe-Mode Enforcement:</strong> Granular toggle options ensuring full alignment with enterprise compliance requirements.</li>
+                    </ul>
+                </div>
+                <div class="gui-showcase-visual">
+                    <div class="mockup-frame glass">
+                        <div class="mockup-header">
+                            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                            <div class="mockup-tab active">Dashboard</div>
+                            <div class="mockup-tab">Scans &amp; Hunts</div>
+                            <div class="mockup-tab">Terminal</div>
+                        </div>
+                        <div class="mockup-body">
+                            <div class="mockup-stats">
+                                <div class="stat-box">
+                                    <span class="stat-num glow-cyan">4</span>
+                                    <span class="stat-label">Active Targets</span>
+                                </div>
+                                <div class="stat-box border-red">
+                                    <span class="stat-num text-danger">9</span>
+                                    <span class="stat-label">Critical Alerts</span>
+                                </div>
+                                <div class="stat-box">
+                                    <span class="stat-num glow-purple">Lv.9</span>
+                                    <span class="stat-label">Penetration Tester</span>
+                                </div>
+                            </div>
+                            <div class="mockup-feed-bar">
+                                <span class="feed-title">Active Workers</span>
+                                <div class="progress-track"><div class="progress-fill" style="width: 78%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Download Executables Hub -->
+        <section class="download-section" id="download">
+            <div class="section-header center">
+                <h2 class="section-title">Deploy VulnForge Elite Instantly</h2>
+                <p class="section-description">Pre-packaged standalone desktop applications configured with embedded runtimes.</p>
+            </div>
+            <div class="download-cards">
+                <!-- Linux Bundle -->
+                <div class="dl-card glass" id="dl-linux">
+                    <div class="dl-badge">Portable AppImage</div>
+                    <h3 class="dl-os">Linux Core Executable</h3>
+                    <p class="dl-info">Universal binary supporting Ubuntu, Debian, Arch, and Fedora security desktop distributions.</p>
+                    <div class="dl-meta">
+                        <span>Size: 119 MB</span>
+                        <span>Arch: x64</span>
+                    </div>
+                    <a href="https://github.com/vulnforge/vulnforge-elite/releases/download/v0.0.0/VulnForge-Elite-0.0.0.AppImage" class="btn btn-primary dl-action-btn" id="btn-dl-linux">
+                        Download AppImage
+                    </a>
+                    <span class="dl-checksum">SHA256: Verified Safe</span>
+                </div>
+
+                <!-- Windows Bundle -->
+                <div class="dl-card glass border-purple" id="dl-windows">
+                    <div class="dl-badge bg-purple">Portable Archive</div>
+                    <h3 class="dl-os">Windows Client System</h3>
+                    <p class="dl-info">Zero-install standalone client runtime. Extract the directory contents and run directly.</p>
+                    <div class="dl-meta">
+                        <span>Size: 141 MB</span>
+                        <span>Arch: x64</span>
+                    </div>
+                    <a href="https://github.com/vulnforge/vulnforge-elite/releases/download/v0.0.0/VulnForge-Elite-0.0.0-win-x64-portable.zip" class="btn btn-purple dl-action-btn" id="btn-dl-windows">
+                        Download Portable ZIP
+                    </a>
+                    <span class="dl-checksum">SHA256: Verified Safe</span>
+                </div>
+            </div>
+
+            <!-- Terminal Source Setup Reference -->
+            <div class="cli-setup-box glass">
+                <div class="cli-setup-header">Command Line Install (Python Engine Core)</div>
+                <div class="cli-setup-code">
+                    <code>pip install vulnforge-elite --upgrade</code>
+                </div>
+                <p class="cli-setup-hint">Requires Python 3.11+. Compatible with standard PyPI indexes.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Area -->
+    <footer class="footer-shell glass">
+        <div class="footer-content">
+            <div class="footer-col">
+                <span class="footer-brand">VulnForge Elite</span>
+                <p class="footer-motto">Built with intense technical dedication by elite automated bug hunters.</p>
+            </div>
+            <div class="footer-col">
+                <span class="footer-col-title">Framework References</span>
+                <a href="#features">Orchestration System</a>
+                <a href="#gui">Graphical Client</a>
+                <a href="#modules">Hunt Taxonomy</a>
+            </div>
+            <div class="footer-col">
+                <span class="footer-col-title">Ethics &amp; Operations</span>
+                <a href="#">Bounty Ruleset</a>
+                <a href="#">Security Killswitch</a>
+                <a href="#">AGPL-3.0 License</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2035+ VulnForge Research Group. All absolute operation logic reserved.</span>
+        </div>
+    </footer>
+
+    <!-- Custom Script Integration -->
+    <script src="script.js"></script>
+</body>
+</html>
